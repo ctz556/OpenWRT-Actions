@@ -20,7 +20,9 @@ on:
         default: 'false'
 #  schedule:
 #    - cron: 0 8 * * 5
-
+  watch:
+    types: started
+    
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-19.07
